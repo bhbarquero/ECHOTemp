@@ -103,34 +103,6 @@ footer{
    aside{clear:both;}
 }
 
-@media screen and (max-width: 470px){
-
-	body{
-		margin: 0px;
-		padding: 0px;
-	}
-
-	img{
-		max-width: 100%;
-	    height: auto;
-	    display: block;
-	}
-
-	.menu1{
-		margin: 2%;
-	}
-
-	.menu1 ul li{
-		display: block;
-		border-right: none;
-		text-align: left;
-	}
-
-
-	article, aside{
-		width: 100%;
-	}
-}
 @media screen and (max-width: 320px){
 	img{
 		max-width: 100%;
@@ -142,27 +114,66 @@ footer{
 		padding: 0px;
 	}
 	.dfoot{
-	float: left;
-}
+		float: left;
+	}
 	article{
-	float: left;
-	width: 96%;
-	padding: 2%;
-	text-align: justify;
+		float: left;
+		width: 96%;
+		padding: 2%;
+		text-align: justify;
+	}
+
+	header h1{
+		text-align: center;
+	}
+	.menu1{
+		margin: 2%;
+	}
+	.menu1 ul li{
+		display: block;
+		border-right:0px;
+		text-align: left;
+	}
+	footer{
+		height: 40px;
+	}
 }
 
-header h1{
-	text-align: center;
-}
-.menu1{
-	margin: 2%;
-}
-.menu1 ul li{
-	display: block;
-	border-right:0px;
-	text-align: left;
-}
-footer{
-	height: 40px;
-}
+
+@media screen and (max-width: 240px){
+
+	body{
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+	}
+
+	header{
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	img{
+		width: 100%;
+		
+	    height: auto;
+	}
+
+	.menu1{
+		width:96%;
+		margin: 2%;
+		padding: 0px;
+	}
+
+	.menu1 ul li{
+		display: block;
+		border-right: none;
+		text-align: left;
+	}
+
+	article, aside{
+		width: 96%;
+		margin: 2px;
+		padding: 0px;
+	}
 }
