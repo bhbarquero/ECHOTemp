@@ -13,6 +13,12 @@ header h1{
 	padding: 20px;
 }
 
+img{
+		width: 100%;
+		height: auto;
+		max-width: 300px;
+	}
+
 .menu1{
 	
 	width: 100%;
@@ -103,6 +109,8 @@ footer{
    aside{clear:both;}
 }
 
+
+
 @media screen and (max-width: 240px){
 
 	body{
@@ -114,11 +122,6 @@ footer{
 	header{
 		width: 100%;
 		margin-right: 0px;
-	}
-
-	img{
-		width: 100%;
-		height: auto;
 	}
 
 	.menu1{
@@ -165,12 +168,6 @@ footer{
 		padding: 5px;
 		margin: 0px 10px 0px 0px;
 	 	list-style: none;
-	}
-
-	img{
-		max-width: 100%;
-		height: auto;
-		display: block;
 	}
 
 	.dfoot, .nfoot{
