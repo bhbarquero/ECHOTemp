@@ -111,9 +111,9 @@
 		}
 		/* Spotlight */
 
-	.spotlight {
-		box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
-	}
+		.spotlight {
+			box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+		}
 
 		.spotlight .image.main {
 			max-height: 60vh;
@@ -124,7 +124,65 @@
 			padding: 3.25em 1.5em 1.25em 1.5em !important;
 		}
 
-	.navbar-toggle{
-		display: block;
+		.navbar-toggle{
+			display: block;
+		}
 	}
+
+	/*SOBRE NOSOTROS*/
+
+	.major{
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.major h2{
+		font-family: Mad!important;
+		margin-bottom: 10px!important;
+	}
+
+	.major h3{
+		margin-bottom: 30px!important;
+	}
+
+	.breadcrumb{
+		padding-top: 0!important;
+		background-color: transparent!important;
+	}
+
+	#main{
+		padding-top: 4.7em;
+		text-align: justify;
+		margin-bottom: 10px;
+	}
+
+	.img-responsive {
+		margin: 0 auto 10px;
+		border-radius: 10px;
+	}
+
+	/*CONTACTENOS*/
+
+	#comentario, #nombre, #email{
+		background-color: transparent;
+		border-color: #ccc;
+		color: white;
+	}
+
+	#enviar, #buscar {
+		float: right;
+		margin-bottom: 15px;
+		margin-top: 5px;
+	}
+
+	/*RESERVACINOES*/
+
+	#b1, #b2, #b3, #b4{
+		background-color: transparent;
+		color: white;
+	}
+
+	.reservar{
+		margin-bottom: 50px;
+		background-color: #D9534F;
 	}
